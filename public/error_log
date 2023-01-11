@@ -1,0 +1,104 @@
+[25-Dec-2022 02:13:51 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:21 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:23 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:25 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:26 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:30 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:32 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:33 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:34 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:35 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:36 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:37 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[25-Dec-2022 02:23:39 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('view')
+#1 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('view')
+#5 /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/ in /home/msargslj/trailor.fawatra.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
