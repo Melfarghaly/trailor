@@ -699,6 +699,11 @@ class AdminSidebarMenu
                                 ['icon' => 'fa fas fa-file', 'active' => in_array(request()->segment(1), ['invoice-schemes', 'invoice-layouts'])]
                             );
                         }
+                        $sub->url(
+                            action('MeasurementController@index'),
+                            __('اعدادات المقاسات'),
+                            ['icon' => 'fa fas fa-file', 'active' => in_array(request()->segment(1), ['invoice-schemes', 'invoice-layouts'])]
+                        );
                         if (auth()->user()->can('barcode_settings.access')) {
                             $sub->url(
                                 action('BarcodeController@index'),
