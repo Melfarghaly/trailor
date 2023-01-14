@@ -56,6 +56,14 @@ Route::middleware(['setData', 'auth', 'SetSessionData', 'language', 'timezone', 
     Route::get('/user/profile', 'UserController@getProfile')->name('user.getProfile');
     Route::post('/user/update', 'UserController@updateProfile')->name('user.updateProfile');
     Route::post('/user/update-password', 'UserController@updatePassword')->name('user.updatePassword');
+    //measuerements
+    Route::get('/measurements', 'MeasurementController@index')->name('measurements.index');
+    Route::get('/measurements/create', 'MeasurementController@create')->name('measurements.create');
+    Route::post('/measurements', 'MeasurementController@store')->name('measurements.store');
+    Route::get('/measurements/{id}', 'MeasurementController@show')->name('measurements.show');
+    Route::get('/measurements/{id}/edit', 'MeasurementController@edit')->name('measurements.edit');
+    Route::put('/measurements/{id}', 'MeasurementController@update')->name('measurements.update');
+    Route::delete('/measurements/{id}', 'MeasurementController@destroy')->name('measurements.destroy');
 
     Route::resource('brands', 'BrandController');
     

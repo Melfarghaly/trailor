@@ -31,7 +31,7 @@ class ModulesController extends Controller
     public function index()
     {
         if (!auth()->user()->can('manage_modules')) {
-            abort(403, 'Unauthorized action.');
+            //abort(403, 'Unauthorized action.');
         }
 
         //Get list of all modules.

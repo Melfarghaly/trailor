@@ -187,7 +187,7 @@
       @endif
     </div>
     <br>
-    <div class="row">
+    <div class="row hide">
       <div class="col-sm-12 col-xs-12">
         <h4>{{ __('sale.products') }}:</h4>
       </div>
@@ -198,6 +198,28 @@
         </div>
       </div>
     </div>
+    @php 
+$trans_options=\DB::table('transactions')->where('id',$sell->id)->select('options')->first();
+$options = json_decode($trans_options->options,true);
+@endphp
+<div class="row">
+    @if(!empty($options))
+   
+        @foreach ($options as $item)
+            <div class="col-xs-2">
+                <div class="row" style="border:1px solid black">
+                    <div class="col-xs-6">{{ $item['label'] }}</div>
+                    <div class="col-xs-6">{{ $item['val'] }}
+                        @if(!empty($item['img']))
+                            <img width="90" src="/uploads/{{ $item['img'] }}">
+                        @endif
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    
+    @endif
+</div>
     <div class="row">
       @php
         $total_paid = 0;

@@ -123,10 +123,11 @@ class AdminSidebarMenu
                         }
                         if (auth()->user()->can('product.create')) {
                             $sub->url(
-                                action('ProductController@create'),
+                               action('ProductController@create'),
                                 __('product.add_product'),
-                                ['icon' => 'fa fas fa-plus-circle', 'active' => request()->segment(1) == 'products' && request()->segment(2) == 'create']
-                            );
+                               ['icon' => 'fa fas fa-plus-circle', 'active' => request()->segment(1) == 'products' && request()->segment(2) == 'create']
+                           );
+                            
                         }
                         if (auth()->user()->can('product.view')) {
                             $sub->url(
@@ -251,9 +252,14 @@ class AdminSidebarMenu
                             );
                         }
                         if (in_array('add_sale', $enabled_modules) && auth()->user()->can('direct_sell.access')) {
-                            $sub->url(
+                           /* $sub->url(
                                 action('SellController@create'),
                                 __('sale.add_sale'),
+                                ['icon' => 'fa fas fa-plus-circle', 'active' => request()->segment(1) == 'sells' && request()->segment(2) == 'create' && empty(request()->get('status'))]
+                            );*/
+                            $sub->url(
+                                action('\Modules\Project\Http\Controllers\InvoiceController@create', ['project_id' => 0]),
+                                __('انشاء فاتورة بيع'),
                                 ['icon' => 'fa fas fa-plus-circle', 'active' => request()->segment(1) == 'sells' && request()->segment(2) == 'create' && empty(request()->get('status'))]
                             );
                         }

@@ -56,7 +56,6 @@ class InvoiceLayoutController extends Controller
         if (!auth()->user()->can('invoice_settings.access')) {
             abort(403, 'Unauthorized action.');
         }
-
         try {
             $validator = Validator::make($request->all(), [
                 'logo' => 'mimes:jpeg,gif,png|1000',
@@ -67,7 +66,6 @@ class InvoiceLayoutController extends Controller
                     'sub_heading_line3', 'sub_heading_line4', 'sub_heading_line5',
                     'table_product_label', 'table_qty_label', 'table_unit_price_label',
                     'table_subtotal_label', 'client_id_label', 'date_label', 'quotation_heading', 'quotation_no_prefix', 'design', 'client_tax_label', 'cat_code_label', 'cn_heading', 'cn_no_label', 'cn_amount_label', 'sales_person_label', 'prev_bal_label', 'date_time_format', 'common_settings', 'change_return_label', 'round_off_label', 'qr_code_fields', 'commission_agent_label']);
-
             $business_id = $request->session()->get('user.business_id');
             $input['business_id'] = $business_id;
 
@@ -239,7 +237,8 @@ class InvoiceLayoutController extends Controller
                 'detailed' => __('lang_v1.detailed') . ' (' . __('lang_v1.for_normal_printer') . ')',
                 'columnize-taxes' => __('lang_v1.columnize_taxes') . ' (' . __('lang_v1.for_normal_printer') . ')',
                 'slim' => __('lang_v1.slim') . ' (' . __('lang_v1.recomended_for_80mm') . ')',
-                'slim2' => __('lang_v1.slim') . ' 2 (' . __('lang_v1.recomended_for_58mm') . ')'
+                'slim2' => __('lang_v1.slim') . ' 2 (' . __('lang_v1.recomended_for_58mm') . ')',
+                'trailor'=>'فاتورة خياطة'
             ];
     }
 }
